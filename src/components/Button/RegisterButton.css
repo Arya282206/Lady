@@ -1,0 +1,19 @@
+/* src/components/RegisterButton.css */
+.register-button {
+    position: absolute; /* Untuk memastikan tombol berada di posisi tertentu */
+    left: 20px; /* Mengatur tombol di sebelah kiri */
+    top: 20px; /* Sesuaikan dengan kebutuhan posisi */
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna biru */
+    color: #ffffff; /* Teks putih */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+  }
+  

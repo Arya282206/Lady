@@ -1,0 +1,163 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .radio-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .note {
+    background-color: #e0f7ff;
+    border-left: 5px solid #00aaff;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+  }
+  
+  
+  .accordion-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .number-grid-container {
+    text-align: center;
+  }
+  
+  .grid-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .grid-description {
+    text-align: left;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-title-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .accordion-title {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .accordion-icon {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  .accordion-icon.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-title {
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-title.active {
+    background-color: #e9ecef;
+  }
+  
+  .accordion-title:hover {
+    background-color: #ebebeb;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 15px;
+    background-color: #fff;
+  }
+  
+  .accordion-content.open {
+    max-height: 2500px;
+    padding: 15px;
+  }
+  
+  .action-button {
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #EBEBEB;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .accordion {
+      width: 100%;
+    }
+  }
